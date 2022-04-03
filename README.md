@@ -1,5 +1,14 @@
-Horison company webpage 
+# Horiseon
 
-This basic page outlines Horizons current company offers and is written in HTML and CSS 
+## Purpose
+A website with Horiseons company offers 
 
+## Built With 
+* HTML
+* CSS
+
+## Website
 https://lindseywhite053.github.io/Horiseon/
+
+## Contribution
+Made by Lindsey White
