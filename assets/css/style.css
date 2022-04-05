@@ -1,18 +1,16 @@
+/* applies formatting to the full page */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* applied to the main background of the webpage */
 body {
     background-color: #d9dcd6;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
+/* format for the head banner */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -20,15 +18,23 @@ header {
     color: #ffffff;
 }
 
+/* aligns the text to the center of the header */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* second tone for the company logo*/
 header h1 .seo {
     color: #d9dcd6;
 }
 
+/* updates the color and styling of the navigation text*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+/* changes the navigation text styling and moves the navigation bar to the right of the company logo */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -37,12 +43,14 @@ header nav {
     font-size: 20px;
 }
 
+/* navigation list without bullet points in a line with the distance from the right side of the page*/
 header nav ul li {
     list-style-type: none;
     display: inline-block;
     margin-left: 25px;
 }
 
+/* formats the image below the navigation bar */ 
 .hero {
     height: 800px;
     width: 100%;
@@ -57,23 +65,14 @@ p {
     font-size: 16px;
 }
 
-/* the following will reflect content to take up 3/4 of the screen with images on alternating sides per section */
+/* Used to format the 3 content sections, ensures there is room for the aside*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* service classes are used to format all 3 content sections */
 .service {
     margin-bottom: 20px;
     padding: 50px;
@@ -83,16 +82,28 @@ p {
     color: #ffffff;
 }
 
+/*creates space between the service header and text */
 .service h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/*reduces the service image sizes */
 .service img {
     max-height: 200px;
 }
 
-/* benefit tags will format the aside */
+/* the following two are used to stagger the content images within content divs */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+/* all benefit tags will format the aside */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -104,22 +115,26 @@ p {
     background-color: #2589bd;
 }
 
+/* creates space between each benefit type and updates the color */ 
 .benefit-type {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* updates the three benefit headers */
 .benefit-type h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* aligns the images to the middle of the aside */
 .benefit-type img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* adds space around the footer */
 footer {
     padding: 30px;
     clear: both;
@@ -127,6 +142,7 @@ footer {
     text-align: center;
 }
 
+/* updates the header size for better design */ 
 footer h2 {
     font-size: 20px;
 }
